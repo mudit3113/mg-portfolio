@@ -101,7 +101,7 @@ const projects: Project[] = [
     id: 'pehchaan',
     status: 'LIVE',
     category: 'FREELANCE',
-    name: 'Pehchaan.me — AI Mentor',
+    name: 'Pehchaan.me AI Mentor',
     url: 'https://pehchaan.me/',
     displayUrl: 'pehchaan.me',
     desc: 'MVP for an EdTech and HRTech platform that maps skills and interests of early-career aspirants aged 18+ into curated learning paths and resume generation. Shipped while working full-time.',
@@ -142,7 +142,7 @@ const projects: Project[] = [
     id: 'aid-ncr',
     status: 'IMPACT',
     category: 'VENTURES & IMPACT',
-    name: 'AID-NCR — Education Initiative',
+    name: 'AID-NCR Education Initiative',
     desc: 'Designed a structured curriculum in Mathematics, verbal literacy, and digital skills with 10+ teachers, deployed across 6 schools reaching ~600 students. Mobilised 6 CSR partners to fund container classrooms, a mobile computer lab, and community land. 10% of students transitioned into mainstream schooling.',
     tags: ['PRO-BONO', 'EDUCATION', 'COMMUNITY'],
     stats: [
