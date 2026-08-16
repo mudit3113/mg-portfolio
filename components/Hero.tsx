@@ -96,7 +96,7 @@ export default function Hero() {
 
             <p className="max-w-2xl mb-10 leading-relaxed" style={{ color: '#1A1A1A', fontSize: '1rem' }}>
               Software Engineer at Spinny, a Tiger Global-backed $1.4B unicorn. Five and a half years
-              building consumer products — AI-powered CX tools, 0-to-1 platform builds, and full-stack
+              building consumer products: AI-powered CX tools, 0-to-1 platform builds, and full-stack
               systems across retail-tech and consumer internet.
             </p>
           </div>

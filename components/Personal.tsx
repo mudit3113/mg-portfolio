@@ -21,7 +21,7 @@ const interests: Interest[] = [
   {
     name: 'Mandala Art',
     tag: 'PRACTICE OF PRECISION',
-    body: "Every mandala starts from a single point and expands outward in perfect symmetry — you can't rush it and you can't fake it. I draw them to slow down deliberately. It's the one activity that demands the same precision as engineering but rewards patience over speed.",
+    body: "Every mandala starts from a single point and expands outward in perfect symmetry. You can't rush it and you can't fake it. I draw them to slow down deliberately. It's the one activity that demands the same precision as engineering but rewards patience over speed.",
     photos: [
       { src: '/mandala.jpg', caption: 'Mandala Art — hours of deliberate precision' },
       { src: '/mandala-2.jpg', caption: 'Every pattern starts from a single centre point' },
@@ -31,7 +31,7 @@ const interests: Interest[] = [
   {
     name: 'Hiking & Trekking',
     tag: 'OBSERVER IN MOTION',
-    body: "Hiking is where I think most clearly. No notifications, no noise. Trekked Jalori Pass, Gorson Bugyal, Kalpeshwar Mahadev, and Necklace Point — each trail a different kind of hard. Even tried skiing once; the mountain has a way of demanding your full attention.",
+    body: "Hiking is where I think most clearly. No notifications, no noise. Trekked Jalori Pass, Gorson Bugyal, Kalpeshwar Mahadev, and Necklace Point. Each trail was a different kind of hard. Even tried skiing once; the mountain has a way of demanding your full attention.",
     photos: [
       { src: '/hiking-jalori.jpg', caption: 'Trekking Jalori Pass, Himachal Pradesh' },
       { src: '/hiking-gorson.jpg', caption: 'View from Gorson Bugyal Trek, Auli' },
@@ -43,7 +43,7 @@ const interests: Interest[] = [
   {
     name: 'Travelling',
     tag: '14 STATES · 3 COUNTRIES',
-    body: "Explored 14 of 28 states in India and 3 countries. From cruising Halong Bay in Vietnam to kayaking through its limestone karsts, standing inside Ellora's 1,500-year-old cave sculptures, to trying coastal seafood in Thailand and craft brews in local breweries — I travel to understand how geography, culture, and economy quietly shape each other.",
+    body: "Explored 14 of 28 states in India and 3 countries. From cruising Halong Bay in Vietnam to kayaking through its limestone karsts, standing inside Ellora's 1,500-year-old cave sculptures, to trying coastal seafood in Thailand and craft brews in local breweries. I travel to understand how geography, culture, and economy quietly shape each other.",
     photos: [
       { src: '/Cruise_experience_Halong_Bay.jpg', caption: 'Cruise experience, Halong Bay, Vietnam' },
       { src: '/Kayaking_Halong_bay.jpg', caption: 'Kayaking through limestone karsts, Halong Bay' },
@@ -57,7 +57,7 @@ const interests: Interest[] = [
   {
     name: 'Cricket, Tennis & Badminton',
     tag: 'PLAYER SINCE 2012',
-    body: "I follow sport analytically — strategy, pattern recognition, decision-making under pressure. Wrote 15+ articles analysing sports strategy for EssentiallySports. I play cricket, tennis, and badminton regularly and have since 2012.",
+    body: "I follow sport analytically: strategy, pattern recognition, decision-making under pressure. Wrote 15+ articles analysing sports strategy for EssentiallySports. I play cricket, tennis, and badminton regularly and have since 2012.",
     photos: [
       { src: '/sports-tennis.jpg', caption: 'Playing tennis — reading the game, not just the ball' },
     ],
@@ -65,13 +65,13 @@ const interests: Interest[] = [
   {
     name: 'Content Creation',
     tag: 'NEWS · CURRENT AFFAIRS · OPINION',
-    body: 'I create short-form video content breaking down topics in the news — geopolitics, economics, science, and the stories behind the headlines. The goal is to make complex current affairs accessible and worth thinking about.',
+    body: 'I create short-form video content breaking down topics in the news: geopolitics, economics, science, and the stories behind the headlines. The goal is to make complex current affairs accessible and worth thinking about.',
     videoEmbed: 'https://drive.google.com/file/d/1XA1mJ23f3clMjPX1iZbqhVzMX-8b1LeI/preview',
   },
   {
     name: 'Reading Books',
     tag: '~10 BOOKS IN 2 YEARS',
-    body: "Obsessed with how humans organise themselves — across cultures, centuries, and geographies. Avid reader of anthropology and history. I listen to Capital Allocators and Invest Like the Best. Books are where I stress-test assumptions I didn't know I had.",
+    body: "Obsessed with how humans organise themselves across cultures, centuries, and geographies. Avid reader of anthropology and history. I listen to Capital Allocators and Invest Like the Best. Books are where I stress-test assumptions I didn't know I had.",
     photos: [
       { src: '/books-collection.jpg', caption: 'My current reading collection' },
     ],
@@ -313,7 +313,7 @@ export default function Personal() {
               RECOGNITION
             </p>
             <p className="text-sm leading-relaxed mb-4" style={{ color: '#1A1A1A' }}>
-              Honoured as <strong>National Mathematics Topper 2014</strong> — scored 100/100 in Mathematics
+              Honoured as <strong>National Mathematics Topper 2014</strong>, scoring 100/100 in Mathematics
               across all DAV Public/Model Schools in the CBSE Class XII examination. Personally recognised
               by <strong>Smriti Zubin Irani</strong>, Minister of Human Resource Development, Government of India,
               among over 1 million students nationwide.
@@ -377,7 +377,7 @@ export default function Personal() {
           </p>
 
           <p className="text-sm leading-relaxed mb-5" style={{ color: '#374151' }}>
-            I don&apos;t do math for grades — I do it because it&apos;s the cleanest way to think.
+            I don&apos;t do math for grades. I do it because it&apos;s the cleanest way to think.
           </p>
 
           <div className="flex items-center gap-3">
@@ -449,7 +449,7 @@ export default function Personal() {
           </p>
           <p className="mb-8 max-w-2xl" style={{ color: '#9CA3AF', lineHeight: 1.7 }}>
             Whether sport is more about strategy or mentality. What a mandala and a system architecture
-            have in common. How geography quietly shapes economies. Pick any thread — I&apos;ll pull on it with you.
+            have in common. How geography quietly shapes economies. Pick any thread and I&apos;ll pull on it with you.
           </p>
           <div className="flex flex-wrap gap-2">
             {topics.map((t) => (

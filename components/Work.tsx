@@ -40,7 +40,7 @@ const projects: Project[] = [
     name: 'Spinny Account Section',
     url: 'https://www.spinny.com/account/',
     displayUrl: 'spinny.com/account',
-    desc: 'Unified post-sales account experience for Spinny customers — order history, warranty plans, AI-assisted support, and self-service scheduling. Replaced agent-dependent workflows with in-app structured flows, cutting resolution time and duplicate ticket volume.',
+    desc: 'Unified post-sales account experience for Spinny customers: order history, warranty plans, AI-assisted support, and self-service scheduling. Replaced agent-dependent workflows with in-app structured flows, cutting resolution time and duplicate ticket volume.',
     tags: ['REACT', 'AI', 'CX'],
     images: [
       { src: '/spinny-account.png', caption: 'Account section — unified post-sales order view' },
@@ -71,7 +71,7 @@ const projects: Project[] = [
     name: 'Rentickle',
     url: 'https://www.rentickle.com/',
     displayUrl: 'rentickle.com',
-    desc: 'SEO-first consumer website handling 100K+ MAU. Led a team of 4 developers. Orders went from 35/day to 90/day during a demand downturn — a 3× lift. Lighthouse score tripled from 17% to 53%.',
+    desc: 'SEO-first consumer website handling 100K+ MAU. Led a team of 4 developers. Orders went from 35/day to 90/day during a demand downturn, a 3× lift. Lighthouse score tripled from 17% to 53%.',
     tags: ['REACT', 'SEO', 'PERFORMANCE'],
     images: [
       { src: '/rentickle-3.png', caption: 'Homepage — categories, INFINITY plan, featured products' },
@@ -125,7 +125,7 @@ const projects: Project[] = [
     status: 'VENTURE',
     category: 'VENTURES & IMPACT',
     name: 'Calm Corners',
-    desc: 'Co-founded a library and reading room from scratch — hiring, operations, product, and marketing across a 4-person team. Built it into a guidance community: mentored 50+ students on competitive exams and career pathways. 3 students cleared high-stakes government examinations. Ran this in parallel with a full-time engineering job.',
+    desc: 'Co-founded a library and reading room from scratch, managing hiring, operations, product, and marketing across a 4-person team. Built it into a guidance community: mentored 50+ students on competitive exams and career pathways. Three students cleared high-stakes government examinations. Ran this in parallel with a full-time engineering job.',
     tags: ['CO-FOUNDER', 'OPERATIONS', 'COMMUNITY'],
     images: [
       { src: '/calm-2.jpg', caption: 'Calm Corners — signboard at the entrance' },
@@ -143,7 +143,7 @@ const projects: Project[] = [
     status: 'IMPACT',
     category: 'VENTURES & IMPACT',
     name: 'AID-NCR — Education Initiative',
-    desc: 'Designed a structured curriculum in Mathematics, verbal literacy, and digital skills with 10+ teachers — deployed across 6 schools to ~600 students. Mobilised 6 CSR partners to fund container classrooms, a mobile computer lab, and community land. 10% of students transitioned into mainstream schooling.',
+    desc: 'Designed a structured curriculum in Mathematics, verbal literacy, and digital skills with 10+ teachers, deployed across 6 schools reaching ~600 students. Mobilised 6 CSR partners to fund container classrooms, a mobile computer lab, and community land. 10% of students transitioned into mainstream schooling.',
     tags: ['PRO-BONO', 'EDUCATION', 'COMMUNITY'],
     stats: [
       { value: '600', label: 'students impacted' },

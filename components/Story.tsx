@@ -26,8 +26,8 @@ const roles: Role[] = [
     context: "India's leading B2C used-car marketplace · Tiger Global-backed · $1.4B valuation",
     track: 'main',
     body: [
-      "Leading the 0-to-1 build of Challan — a plugin-based traffic-fine resolution product with a CRM dashboard deployed across Spinny's ecosystem and third-party apps. I own the technical architecture for a $12M/yr business line inside a 7-person cross-functional pod.",
-      'Also leading stealth brand initiatives designed to capture top-of-funnel traffic independently from the core brand — where the strategy matters as much as the code.',
+      "Leading the 0-to-1 build of Challan, a plugin-based traffic-fine resolution product with a CRM dashboard deployed across Spinny's ecosystem and third-party apps. I own the technical architecture for a $12M/yr business line inside a 7-person cross-functional pod.",
+      'Also leading stealth brand initiatives designed to capture top-of-funnel traffic independently from the core brand. Here, strategy matters as much as the code.',
     ],
     stats: [
       { value: '$12M/yr', label: 'business line owned' },
@@ -43,8 +43,8 @@ const roles: Role[] = [
     context: "India's leading B2C used-car marketplace · Tiger Global-backed · $1.4B valuation",
     track: 'main',
     body: [
-      "Before Ecosystem, I was in CX — where I learned that the fastest way to fix a broken experience is to remove the human from the broken part. I built a suite of AI-assisted tools: chatbots, voicebots, conversation summaries, multi-language support, and ticket recategorisation. Cut average handling time by 30 minutes per ticket. New ticket volume dropped 25%. CSAT went from 55 to 72.",
-      'I also redesigned repair-cost approvals and warranty case intake — two workflows that were entirely offline and agent-dependent. One saved $150K annually. The other eliminated 1,500 duplicate tickets. Received the Driven by Customer Award, selected from 275 employees.',
+      "Before Ecosystem, I was in CX. I learned that the fastest way to fix a broken experience is to remove the human from the broken part. Built a suite of AI-assisted tools: chatbots, voicebots, conversation summaries, multi-language support, and ticket recategorisation. Cut average handling time by 30 minutes per ticket. New ticket volume dropped 25%. CSAT went from 55 to 72.",
+      'I also redesigned repair-cost approvals and warranty case intake. Both workflows were entirely offline and agent-dependent. One saved $150K annually. The other eliminated 1,500 duplicate tickets. Received the Driven by Customer Award, selected from 275 employees.',
     ],
     stats: [
       { value: '30 min', label: 'saved per ticket' },
@@ -60,7 +60,7 @@ const roles: Role[] = [
     context: 'Pehchaan.me · BrightArc · Vertical Quick Commerce',
     track: 'outside',
     body: [
-      'Shipped three independent engagements in parallel with full-time work. Built the MVP for Pehchaan.me — an AI mentor that maps skills and interests of early-career aspirants into curated learning paths and resume generation.',
+      'Shipped three independent engagements in parallel with full-time work. Built the MVP for Pehchaan.me, an AI mentor that maps skills and interests of early-career aspirants into curated learning paths and resume generation.',
       'Architected the frontend for BrightArc, an Australian wealth management enterprise. Built an end-to-end inventory management system for a vertical quick commerce company.',
     ],
     stats: [
@@ -78,7 +78,7 @@ const roles: Role[] = [
     track: 'outside',
     body: [
       "Noticed something no one was building a product around: short-form content was quietly destroying people's ability to focus. So I built the antidote.",
-      'Thinklix is a brain training app designed to reverse declining concentration in digital users — built solo, from idea to production. No team. No funding. Just a problem worth solving and the skills to solve it.',
+      'Thinklix is a brain training app designed to reverse declining concentration in digital users. Built solo, from idea to production. No team. No funding. Just a problem worth solving and the skills to solve it.',
     ],
     stats: [
       { value: '1,000', label: 'active users' },
@@ -95,7 +95,7 @@ const roles: Role[] = [
     track: 'main',
     body: [
       'Joined during a demand downturn. Left having tripled revenue velocity. Led a team of 4 developers to deliver an SEO-first consumer website handling 100K+ MAU. Orders went from 35/day to 90/day.',
-      'Lighthouse performance score went from 17% to 53% through code-splitting, lazy loading, and caching. Onboarded and managed 2 developers and 2 interns — 3 out of 4 received full-time offers. Awarded Certificate of Appreciation by the Director for extraordinary contributions & achieving exceptional results (Nov 2024).',
+      'Lighthouse performance score went from 17% to 53% through code-splitting, lazy loading, and caching. Onboarded and managed 2 developers and 2 interns. Three out of four received full-time offers. Awarded Certificate of Appreciation by the Director for extraordinary contributions and achieving exceptional results (Nov 2024).',
     ],
     stats: [
       { value: '3×', label: 'revenue lift during downturn' },
@@ -112,7 +112,7 @@ const roles: Role[] = [
     context: 'Your own venture · 2 branches · ~80 active users/month per branch',
     track: 'outside',
     body: [
-      'Built and ran this from scratch — hiring, operations, product, and marketing across a 4-person team. Generated ~$36K in annual revenue at an 8% profit margin.',
+      'Built and ran this from scratch: hiring, operations, product, and marketing across a 4-person team. Generated ~$36K in annual revenue at an 8% profit margin.',
       'What started as a workspace became a guidance community: mentored 50+ students on competitive exams and career pathways. 3 students cleared high-stakes government examinations. Ran this in parallel with a full-time job.',
     ],
     stats: [
@@ -129,7 +129,7 @@ const roles: Role[] = [
     context: 'NGO focused on education for underprivileged communities',
     track: 'outside',
     body: [
-      'Worked with Trustee/Founders of AID-NCR to design a sustainable mentorship model — scaled it across all 6 centres in Delhi NCR. Revamped the school curriculum to align with government and semi-private school admission standards, enabling students to continue education beyond primary levels.',
+      'Worked with Trustee/Founders of AID-NCR to design a sustainable mentorship model, scaling it across all 6 centres in Delhi NCR. Revamped the school curriculum to align with government and semi-private school admission standards, enabling students to continue education beyond primary levels.',
       'Facilitated a mobile computer lab through Huawei\'s CSR initiative and led digital literacy sessions. 10% of students transitioned into mainstream schooling; 50+ gained vocational skills for employment. Awarded Certificate of Appreciation by Trustee Kunal Gupta (Aug 2025).',
     ],
     stats: [
@@ -148,7 +148,7 @@ const roles: Role[] = [
     track: 'main',
     body: [
       'Three years, two major product builds. At Trelif, led a cross-functional team of 5 to build a full-stack luxury furniture website with a CMS enabling business teams to manage 350+ SKUs across 15+ categories.',
-      'At a second client, built an account system that unified post-sales order visibility for customers and ops — cutting order resolution time by 50% and lifting CSAT by 20%. Reduced website load time by 85% via server-side and client-side caching.',
+      'At a second client, built an account system that unified post-sales order visibility for customers and ops, cutting order resolution time by 50% and lifting CSAT by 20%. Reduced website load time by 85% via server-side and client-side caching.',
     ],
     stats: [
       { value: '85%', label: 'load time reduction' },
@@ -164,7 +164,7 @@ const roles: Role[] = [
     context: 'Data science and analytics consulting firm',
     track: 'main',
     body: [
-      'First job out of college. Implemented an NLP pipeline to detect illegal merchants for AmEx — raised model accuracy from 77% to 82%.',
+      'First job out of college. Implemented an NLP pipeline to detect illegal merchants for AmEx. Raised model accuracy from 77% to 82%.',
       "Where I learned that clean data and a sharp model can do what a hundred analysts cannot.",
     ],
     stats: [
