@@ -608,8 +608,8 @@ export default function Personal() {
                 <div
                   className="mt-4 rounded-md overflow-hidden"
                   style={{
+                    width: "min(260px, 100%)",
                     aspectRatio: "9/16",
-                    maxHeight: "360px",
                     background: "#000",
                   }}
                 >
