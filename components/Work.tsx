@@ -258,7 +258,7 @@ function WorkGallery({ images }: { images: ProjectImage[] }) {
         </div>
         <div className="flex gap-1.5 mt-2 overflow-x-auto pb-1">
           {images.map((img, i) => (
-            <button key={i} onClick={() => setActive(i)} className="flex-shrink-0 overflow-hidden rounded" style={{ width: 36, height: 36, border: `2px solid ${active === i ? '#0A2342' : 'transparent'}`, opacity: active === i ? 1 : 0.55 }}>
+            <button key={i} onClick={() => setActive(i)} className="flex-shrink-0 overflow-hidden rounded" style={{ width: 36, height: 36, border: `2px solid ${active === i ? '#002469' : 'transparent'}`, opacity: active === i ? 1 : 0.55 }}>
               <img src={img.src} alt="" className="w-full h-full object-cover object-top" />
             </button>
           ))}
@@ -277,7 +277,7 @@ function CalmCornersCard({ project }: { project: Project }) {
       className="flex flex-col border rounded-2xl overflow-hidden transition-all duration-200"
       style={{ borderColor: '#E8E2D9' }}
       onMouseEnter={(e) => {
-        (e.currentTarget as HTMLDivElement).style.borderColor = '#0A2342';
+        (e.currentTarget as HTMLDivElement).style.borderColor = '#002469';
         (e.currentTarget as HTMLDivElement).style.boxShadow = '0 4px 20px rgba(10,35,66,0.08)';
       }}
       onMouseLeave={(e) => {
@@ -305,7 +305,7 @@ function CalmCornersCard({ project }: { project: Project }) {
               key={img.src}
               onClick={() => setActiveImg(i)}
               className="relative overflow-hidden rounded border-2 transition-all duration-200"
-              style={{ width: 36, height: 36, borderColor: activeImg === i ? '#0A2342' : 'white', opacity: activeImg === i ? 1 : 0.7 }}
+              style={{ width: 36, height: 36, borderColor: activeImg === i ? '#002469' : 'white', opacity: activeImg === i ? 1 : 0.7 }}
             >
               <Image src={img.src} alt="" fill className="object-cover" />
             </button>
@@ -327,7 +327,7 @@ function CalmCornersCard({ project }: { project: Project }) {
           </span>
         </div>
 
-        <h3 className="font-bold text-lg mb-3" style={{ color: '#0A2342' }}>{project.name}</h3>
+        <h3 className="font-bold text-lg mb-3" style={{ color: '#002469' }}>{project.name}</h3>
         <p className="text-sm leading-relaxed flex-1 mb-5" style={{ color: '#6B7280' }}>{project.desc}</p>
 
         {/* Stats */}
@@ -335,7 +335,7 @@ function CalmCornersCard({ project }: { project: Project }) {
           <div className="flex gap-5 mb-5 pt-4" style={{ borderTop: '1px solid #E5E7EB' }}>
             {project.stats.map((s) => (
               <div key={s.label}>
-                <p className="font-bold text-base" style={{ color: '#0A2342' }}>{s.value}</p>
+                <p className="font-bold text-base" style={{ color: '#002469' }}>{s.value}</p>
                 <p className="text-xs" style={{ color: '#6B7280' }}>{s.label}</p>
               </div>
             ))}
@@ -347,7 +347,7 @@ function CalmCornersCard({ project }: { project: Project }) {
             <span
               key={t}
               className="text-xs font-semibold tracking-widest px-2 py-1 rounded"
-              style={{ background: '#EEF2FF', color: '#2D5BE3' }}
+              style={{ background: '#FFF3E0', color: '#E57200' }}
             >
               {t}
             </span>
@@ -365,7 +365,7 @@ function ProjectCard({ project }: { project: Project }) {
       className="flex flex-col border rounded-2xl p-6 transition-all duration-200"
       style={{ borderColor: '#E8E2D9', background: '#FFFFFF' }}
       onMouseEnter={(e) => {
-        (e.currentTarget as HTMLDivElement).style.borderColor = '#0A2342';
+        (e.currentTarget as HTMLDivElement).style.borderColor = '#002469';
         (e.currentTarget as HTMLDivElement).style.boxShadow = '0 4px 20px rgba(10,35,66,0.08)';
       }}
       onMouseLeave={(e) => {
@@ -385,9 +385,9 @@ function ProjectCard({ project }: { project: Project }) {
         </span>
       </div>
 
-      <h3 className="font-bold text-lg mb-1" style={{ color: '#0A2342' }}>{project.name}</h3>
+      <h3 className="font-bold text-lg mb-1" style={{ color: '#002469' }}>{project.name}</h3>
       {project.displayUrl && (
-        <p className="text-xs mb-4" style={{ color: '#2D5BE3' }}>{project.displayUrl}</p>
+        <p className="text-xs mb-4" style={{ color: '#E57200' }}>{project.displayUrl}</p>
       )}
 
       <p className="text-sm leading-relaxed flex-1 mb-5" style={{ color: '#6B7280' }}>{project.desc}</p>
@@ -397,7 +397,7 @@ function ProjectCard({ project }: { project: Project }) {
         <div className="flex flex-wrap gap-5 mb-5 pt-4" style={{ borderTop: '1px solid #E5E7EB' }}>
           {project.stats.map((s) => (
             <div key={s.label}>
-              <p className="font-bold text-base" style={{ color: '#0A2342' }}>{s.value}</p>
+              <p className="font-bold text-base" style={{ color: '#002469' }}>{s.value}</p>
               <p className="text-xs" style={{ color: '#6B7280' }}>{s.label}</p>
             </div>
           ))}
@@ -409,7 +409,7 @@ function ProjectCard({ project }: { project: Project }) {
           <span
             key={t}
             className="text-xs font-semibold tracking-widest px-2 py-1 rounded"
-            style={{ background: '#EEF2FF', color: '#2D5BE3' }}
+            style={{ background: '#FFF3E0', color: '#E57200' }}
           >
             {t}
           </span>
@@ -422,9 +422,9 @@ function ProjectCard({ project }: { project: Project }) {
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm font-semibold no-underline transition-colors duration-200 mb-2"
-          style={{ color: '#0A2342' }}
-          onMouseEnter={(e) => (e.currentTarget.style.color = '#2D5BE3')}
-          onMouseLeave={(e) => (e.currentTarget.style.color = '#0A2342')}
+          style={{ color: '#002469' }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = '#E57200')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = '#002469')}
         >
           View Live →
         </a>
@@ -448,12 +448,12 @@ export default function Work() {
   return (
     <section id="work" className="py-24 px-6" style={{ background: '#FAF7F2' }}>
       <div className="max-w-6xl mx-auto">
-        <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#2D5BE3' }}>
+        <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#E57200' }}>
           03 — Work
         </p>
         <h2
           className="font-serif-display font-bold mb-3"
-          style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#0A2342' }}
+          style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#002469' }}
         >
           Shipped Products
         </h2>
@@ -469,9 +469,9 @@ export default function Work() {
               onClick={() => setActive(cat)}
               className="flex-shrink-0 px-4 text-xs font-semibold tracking-widest rounded transition-all duration-200"
               style={{
-                background: active === cat ? '#0A2342' : 'transparent',
+                background: active === cat ? '#002469' : 'transparent',
                 color: active === cat ? 'white' : '#6B7280',
-                border: `1px solid ${active === cat ? '#0A2342' : '#E5E7EB'}`,
+                border: `1px solid ${active === cat ? '#002469' : '#E5E7EB'}`,
                 minHeight: '44px',
               }}
             >

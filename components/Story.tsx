@@ -243,7 +243,7 @@ function RoleGallery({ images }: { images: RoleImage[] }) {
         {images.length > 1 && (
           <div className="flex gap-1.5 mt-2 overflow-x-auto pb-1">
             {images.map((img, i) => (
-              <button key={i} onClick={() => setActive(i)} className="flex-shrink-0 overflow-hidden rounded" style={{ width: 36, height: 36, border: `2px solid ${active === i ? '#0A2342' : 'transparent'}`, opacity: active === i ? 1 : 0.55 }}>
+              <button key={i} onClick={() => setActive(i)} className="flex-shrink-0 overflow-hidden rounded" style={{ width: 36, height: 36, border: `2px solid ${active === i ? '#002469' : 'transparent'}`, opacity: active === i ? 1 : 0.55 }}>
                 <img src={img.src} alt="" className="w-full h-full object-cover object-top" />
               </button>
             ))}
@@ -270,13 +270,13 @@ export default function Story() {
       >
         <div className="py-4 flex items-start justify-between gap-3">
           <div className="flex-1 min-w-0">
-            <p className="text-xs font-semibold tracking-widest mb-1" style={{ color: '#2D5BE3' }}>
+            <p className="text-xs font-semibold tracking-widest mb-1" style={{ color: '#E57200' }}>
               {role.period}
             </p>
-            <p className="font-bold text-base leading-tight" style={{ color: '#0A2342' }}>{role.company}</p>
+            <p className="font-bold text-base leading-tight" style={{ color: '#002469' }}>{role.company}</p>
             <p className="text-sm mt-0.5 leading-snug" style={{ color: '#6B7280' }}>{role.title}</p>
           </div>
-          <span className="text-xl flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full" style={{ color: '#2D5BE3', background: '#EEF2FF' }}>{isOpen ? '−' : '+'}</span>
+          <span className="text-xl flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full" style={{ color: '#E57200', background: '#FFF3E0' }}>{isOpen ? '−' : '+'}</span>
         </div>
 
         {isOpen && (
@@ -294,13 +294,13 @@ export default function Story() {
                 <div className="flex flex-wrap gap-6 mt-4 pt-4" style={{ borderTop: '1px solid #E5E7EB' }}>
                   {role.stats.map((s) => (
                     <div key={s.label}>
-                      <p className="font-bold" style={{ color: '#0A2342', fontSize: '1.1rem' }}>{s.value}</p>
+                      <p className="font-bold" style={{ color: '#002469', fontSize: '1.1rem' }}>{s.value}</p>
                       <p className="text-xs" style={{ color: '#6B7280' }}>{s.label}</p>
                     </div>
                   ))}
                 </div>
                 {role.certLink && (
-                  <a href={role.certLink.href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs font-medium mt-3" style={{ color: '#0A2342' }}>
+                  <a href={role.certLink.href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs font-medium mt-3" style={{ color: '#002469' }}>
                     <span>🏅</span> {role.certLink.label} ↗
                   </a>
                 )}
@@ -318,12 +318,12 @@ export default function Story() {
   return (
     <section id="story" className="py-24 px-6" style={{ background: '#FFFFFF' }}>
       <div className="max-w-6xl mx-auto">
-        <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#2D5BE3' }}>
+        <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#E57200' }}>
           02 — Story
         </p>
         <h2
           className="font-serif-display font-bold mb-3"
-          style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#0A2342' }}
+          style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#002469' }}
         >
           From first commit to product owner in five years.
         </h2>
@@ -333,7 +333,7 @@ export default function Story() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Main career */}
           <div>
-            <p className="text-xs font-semibold tracking-widest mb-4 pb-2" style={{ color: '#0A2342', borderBottom: '2px solid #0A2342' }}>
+            <p className="text-xs font-semibold tracking-widest mb-4 pb-2" style={{ color: '#002469', borderBottom: '2px solid #002469' }}>
               Career spine
             </p>
             {mainRoles.map((r) => <RoleCard key={r.id} role={r} />)}
@@ -341,7 +341,7 @@ export default function Story() {
 
           {/* Outside the day job */}
           <div>
-            <p className="text-xs font-semibold tracking-widest mb-4 pb-2" style={{ color: '#2D5BE3', borderBottom: '2px solid #2D5BE3' }}>
+            <p className="text-xs font-semibold tracking-widest mb-4 pb-2" style={{ color: '#E57200', borderBottom: '2px solid #E57200' }}>
               Outside the day job
             </p>
             {outsideRoles.map((r) => <RoleCard key={r.id} role={r} />)}

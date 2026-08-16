@@ -16,7 +16,7 @@ const contactLinks = [
 
 export default function Footer() {
   return (
-    <footer style={{ background: '#0A2342', color: 'white' }}>
+    <footer style={{ background: '#002469', color: 'white' }}>
       {/* Top band */}
       <div className="max-w-6xl mx-auto px-6 pt-16 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <span
                 className="text-white text-xs font-bold w-9 h-9 flex items-center justify-center rounded"
-                style={{ background: '#2D5BE3' }}
+                style={{ background: '#E57200' }}
               >
                 MG
               </span>
@@ -41,9 +41,9 @@ export default function Footer() {
             <a
               href="mailto:muditgarg1996@yahoo.com"
               className="inline-block px-5 py-2.5 text-xs font-semibold tracking-wide rounded no-underline transition-all duration-200"
-              style={{ background: '#2D5BE3', color: 'white' }}
-              onMouseEnter={(e) => (e.currentTarget.style.background = '#1d4ed8')}
-              onMouseLeave={(e) => (e.currentTarget.style.background = '#2D5BE3')}
+              style={{ background: '#E57200', color: 'white' }}
+              onMouseEnter={(e) => (e.currentTarget.style.background = '#B85C00')}
+              onMouseLeave={(e) => (e.currentTarget.style.background = '#E57200')}
             >
               Email Mudit →
             </a>
@@ -51,7 +51,7 @@ export default function Footer() {
 
           {/* Nav column */}
           <div>
-            <p className="text-xs font-semibold tracking-widest mb-5" style={{ color: '#2D5BE3' }}>
+            <p className="text-xs font-semibold tracking-widest mb-5" style={{ color: '#E57200' }}>
               Navigate
             </p>
             <ul className="space-y-3">
@@ -73,7 +73,7 @@ export default function Footer() {
 
           {/* Contact column */}
           <div>
-            <p className="text-xs font-semibold tracking-widest mb-5" style={{ color: '#2D5BE3' }}>
+            <p className="text-xs font-semibold tracking-widest mb-5" style={{ color: '#E57200' }}>
               Get in touch
             </p>
             <ul className="space-y-3">
@@ -95,7 +95,7 @@ export default function Footer() {
             </ul>
 
             <div className="mt-8">
-              <p className="text-xs font-semibold tracking-widest mb-3" style={{ color: '#2D5BE3' }}>
+              <p className="text-xs font-semibold tracking-widest mb-3" style={{ color: '#E57200' }}>
                 Resume
               </p>
               <a
