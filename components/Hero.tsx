@@ -49,7 +49,7 @@ export default function Hero() {
     >
       <div className="max-w-6xl mx-auto w-full" ref={containerRef}>
         {/* Hook */}
-        <p className="text-xs font-semibold tracking-widest mb-6" style={{ color: '#E57200' }}>
+        <p className="text-xs font-semibold tracking-widest mb-6" style={{ color: '#2D5BE3' }}>
           Building products since 2021
         </p>
 
@@ -60,7 +60,7 @@ export default function Hero() {
             <div className="mb-2">
               <h1
                 className="font-serif-display font-bold leading-none"
-                style={{ fontSize: 'clamp(3rem, 8vw, 7rem)', color: '#002469', letterSpacing: '-0.02em' }}
+                style={{ fontSize: 'clamp(3rem, 8vw, 7rem)', color: '#0A2342', letterSpacing: '-0.02em' }}
               >
                 Mudit Garg
               </h1>
@@ -76,11 +76,11 @@ export default function Hero() {
               Software Engineer · Product Builder
             </p>
 
-            <div className="w-10 h-0.5 my-6" style={{ background: '#E57200' }} />
+            <div className="w-10 h-0.5 my-6" style={{ background: '#2D5BE3' }} />
 
             <h2
               className="font-serif-display font-bold mb-4"
-              style={{ fontSize: 'clamp(1.5rem, 4vw, 2.8rem)', color: '#002469', lineHeight: 1.25 }}
+              style={{ fontSize: 'clamp(1.5rem, 4vw, 2.8rem)', color: '#0A2342', lineHeight: 1.25 }}
             >
               Five Years of Shipping.
               <br />
@@ -108,8 +108,8 @@ export default function Hero() {
               style={{
                 width: 'clamp(160px, 35vw, 280px)',
                 aspectRatio: '3/4',
-                border: '3px solid #002469',
-                boxShadow: '6px 6px 0px #E57200',
+                border: '3px solid #0A2342',
+                boxShadow: '6px 6px 0px #2D5BE3',
               }}
             >
               <Image
@@ -128,9 +128,9 @@ export default function Hero() {
           <a
             href="mailto:muditgarg1996@yahoo.com"
             className="px-5 py-3 text-sm font-semibold tracking-wide text-white rounded transition-all duration-200 no-underline"
-            style={{ background: '#002469', minHeight: '44px', display: 'flex', alignItems: 'center' }}
-            onMouseEnter={(e) => (e.currentTarget.style.background = '#E57200')}
-            onMouseLeave={(e) => (e.currentTarget.style.background = '#002469')}
+            style={{ background: '#0A2342', minHeight: '44px', display: 'flex', alignItems: 'center' }}
+            onMouseEnter={(e) => (e.currentTarget.style.background = '#2D5BE3')}
+            onMouseLeave={(e) => (e.currentTarget.style.background = '#0A2342')}
           >
             Email Mudit
           </a>
@@ -139,14 +139,14 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-3 text-sm font-semibold tracking-wide rounded border transition-all duration-200 no-underline"
-            style={{ color: '#002469', borderColor: '#002469', minHeight: '44px', display: 'flex', alignItems: 'center' }}
+            style={{ color: '#0A2342', borderColor: '#0A2342', minHeight: '44px', display: 'flex', alignItems: 'center' }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.background = '#002469';
+              e.currentTarget.style.background = '#0A2342';
               e.currentTarget.style.color = 'white';
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.background = 'transparent';
-              e.currentTarget.style.color = '#002469';
+              e.currentTarget.style.color = '#0A2342';
             }}
           >
             LinkedIn
@@ -155,14 +155,14 @@ export default function Hero() {
             href="/resume.pdf"
             download
             className="px-5 py-3 text-sm font-semibold tracking-wide rounded border transition-all duration-200 no-underline"
-            style={{ color: '#002469', borderColor: '#002469', minHeight: '44px', display: 'flex', alignItems: 'center' }}
+            style={{ color: '#0A2342', borderColor: '#0A2342', minHeight: '44px', display: 'flex', alignItems: 'center' }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.background = '#002469';
+              e.currentTarget.style.background = '#0A2342';
               e.currentTarget.style.color = 'white';
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.background = 'transparent';
-              e.currentTarget.style.color = '#002469';
+              e.currentTarget.style.color = '#0A2342';
             }}
           >
             Resume
@@ -170,7 +170,7 @@ export default function Hero() {
           <a
             href="#work"
             className="px-5 py-3 text-sm font-semibold tracking-wide rounded transition-all duration-200 no-underline"
-            style={{ color: '#E57200', minHeight: '44px', display: 'flex', alignItems: 'center' }}
+            style={{ color: '#2D5BE3', minHeight: '44px', display: 'flex', alignItems: 'center' }}
           >
             See the Work →
           </a>
@@ -180,10 +180,10 @@ export default function Hero() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-px" style={{ background: '#E8E2D9' }}>
           {stats.map((s) => (
             <div key={s.label} className="p-6" style={{ background: '#FAF7F2' }}>
-              <p className="text-xs font-semibold tracking-widest mb-3" style={{ color: '#E57200' }}>
+              <p className="text-xs font-semibold tracking-widest mb-3" style={{ color: '#2D5BE3' }}>
                 {s.label}
               </p>
-              <p className="font-bold mb-2" style={{ fontSize: '2rem', color: '#002469', lineHeight: 1 }}>
+              <p className="font-bold mb-2" style={{ fontSize: '2rem', color: '#0A2342', lineHeight: 1 }}>
                 {s.value}
               </p>
               <p className="text-xs leading-relaxed" style={{ color: '#6B7280' }}>

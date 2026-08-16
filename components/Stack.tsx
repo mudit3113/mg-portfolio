@@ -63,12 +63,12 @@ export default function Stack() {
   return (
     <section id="stack" className="py-24 px-6" style={{ background: '#FFFFFF' }}>
       <div className="max-w-6xl mx-auto">
-        <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#E57200' }}>
+        <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#2D5BE3' }}>
           04 — Stack
         </p>
         <h2
           className="font-serif-display font-bold mb-3"
-          style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#002469' }}
+          style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#0A2342' }}
         >
           The Toolkit.
         </h2>
@@ -81,14 +81,14 @@ export default function Stack() {
             <div key={col.title}>
               <p
                 className="text-xs font-bold tracking-widest mb-4 pb-3"
-                style={{ color: '#002469', borderBottom: '2px solid #002469' }}
+                style={{ color: '#0A2342', borderBottom: '2px solid #0A2342' }}
               >
                 {col.title}
               </p>
               <ul className="space-y-2">
                 {col.items.map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="mt-1.5 w-1 h-1 rounded-full flex-shrink-0" style={{ background: '#E57200' }} />
+                    <span className="mt-1.5 w-1 h-1 rounded-full flex-shrink-0" style={{ background: '#2D5BE3' }} />
                     <span className="text-sm leading-relaxed" style={{ color: '#1A1A1A' }}>
                       {item}
                     </span>

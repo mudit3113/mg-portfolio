@@ -34,11 +34,11 @@ export default function Nav() {
         <a href="#hero" className="flex items-center gap-2 no-underline">
           <span
             className="text-white text-xs font-bold w-8 h-8 flex items-center justify-center rounded"
-            style={{ background: '#002469' }}
+            style={{ background: '#0A2342' }}
           >
             MG
           </span>
-          <span className="font-semibold text-sm" style={{ color: '#002469' }}>
+          <span className="font-semibold text-sm" style={{ color: '#0A2342' }}>
             Mudit Garg
           </span>
         </a>
@@ -51,10 +51,10 @@ export default function Nav() {
               href={l.href}
               className="text-xs font-medium tracking-widest transition-colors duration-200 no-underline"
               style={{ color: '#6B7280' }}
-              onMouseEnter={(e) => (e.currentTarget.style.color = '#002469')}
+              onMouseEnter={(e) => (e.currentTarget.style.color = '#0A2342')}
               onMouseLeave={(e) => (e.currentTarget.style.color = '#6B7280')}
             >
-              <span style={{ color: '#E57200' }}>{l.num} —</span> {l.label}
+              <span style={{ color: '#2D5BE3' }}>{l.num} —</span> {l.label}
             </a>
           ))}
         </div>
@@ -64,9 +64,9 @@ export default function Nav() {
           className="md:hidden flex flex-col gap-1.5 p-1"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          <span className="block w-5 h-0.5" style={{ background: '#002469' }} />
-          <span className="block w-5 h-0.5" style={{ background: '#002469' }} />
-          <span className="block w-3 h-0.5" style={{ background: '#002469' }} />
+          <span className="block w-5 h-0.5" style={{ background: '#0A2342' }} />
+          <span className="block w-5 h-0.5" style={{ background: '#0A2342' }} />
+          <span className="block w-3 h-0.5" style={{ background: '#0A2342' }} />
         </button>
       </div>
 
@@ -81,7 +81,7 @@ export default function Nav() {
               style={{ color: '#1A1A1A' }}
               onClick={() => setMenuOpen(false)}
             >
-              <span style={{ color: '#E57200' }}>{l.num} —</span> {l.label}
+              <span style={{ color: '#2D5BE3' }}>{l.num} —</span> {l.label}
             </a>
           ))}
         </div>

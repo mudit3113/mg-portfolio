@@ -333,7 +333,7 @@ function PhotoGallery({ photos }: { photos: Photo[] }) {
                 style={{
                   width: 40,
                   height: 40,
-                  border: `2px solid ${active === i ? "#002469" : "transparent"}`,
+                  border: `2px solid ${active === i ? "#0A2342" : "transparent"}`,
                   opacity: active === i ? 1 : 0.55,
                 }}
               >
@@ -361,13 +361,13 @@ export default function Personal() {
       <div className="max-w-6xl mx-auto">
         <p
           className="text-xs font-semibold tracking-widest mb-4"
-          style={{ color: "#E57200" }}
+          style={{ color: "#2D5BE3" }}
         >
           05 — Personal
         </p>
         <h2
           className="font-serif-display font-bold mb-3"
-          style={{ fontSize: "clamp(1.8rem, 4vw, 3rem)", color: "#002469" }}
+          style={{ fontSize: "clamp(1.8rem, 4vw, 3rem)", color: "#0A2342" }}
         >
           Outside the work.
         </h2>
@@ -378,17 +378,17 @@ export default function Personal() {
         {/* Mathematics — featured full-width card */}
         <div
           className="rounded-lg p-8 mb-8"
-          style={{ background: "#FFF8F0", border: "1px solid #FDDCB5" }}
+          style={{ background: "#F0F4FF", border: "1px solid #C7D2FE" }}
         >
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
             <div>
               <p
                 className="text-xs font-semibold tracking-widest mb-2"
-                style={{ color: "#E57200" }}
+                style={{ color: "#2D5BE3" }}
               >
                 PUBLISHED RESEARCHER · NATIONAL MATHEMATICS TOPPER 2014
               </p>
-              <h3 className="font-bold text-2xl" style={{ color: "#002469" }}>
+              <h3 className="font-bold text-2xl" style={{ color: "#0A2342" }}>
                 Mathematics
               </h3>
             </div>
@@ -397,12 +397,12 @@ export default function Personal() {
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 text-xs font-semibold tracking-wide rounded no-underline transition-all duration-200"
-              style={{ background: "#002469", color: "white" }}
+              style={{ background: "#0A2342", color: "white" }}
               onMouseEnter={(e) =>
-                (e.currentTarget.style.background = "#E57200")
+                (e.currentTarget.style.background = "#2D5BE3")
               }
               onMouseLeave={(e) =>
-                (e.currentTarget.style.background = "#002469")
+                (e.currentTarget.style.background = "#0A2342")
               }
             >
               Read Research Paper →
@@ -412,11 +412,11 @@ export default function Personal() {
           {/* Recognition + images */}
           <div
             className="rounded-md p-4 mb-5"
-            style={{ background: "white", border: "1px solid #FEE9CC" }}
+            style={{ background: "white", border: "1px solid #E0E7FF" }}
           >
             <p
               className="text-xs font-semibold tracking-widest mb-2"
-              style={{ color: "#E57200" }}
+              style={{ color: "#2D5BE3" }}
             >
               RECOGNITION
             </p>
@@ -440,7 +440,7 @@ export default function Personal() {
               >
                 <div
                   className="relative overflow-hidden rounded-md mb-1"
-                  style={{ border: "1px solid #FEE9CC" }}
+                  style={{ border: "1px solid #E0E7FF" }}
                 >
                   <img
                     src="/math-letter.png"
@@ -460,7 +460,7 @@ export default function Personal() {
                     </span>
                   </div>
                 </div>
-                <p className="text-xs font-medium" style={{ color: "#E57200" }}>
+                <p className="text-xs font-medium" style={{ color: "#2D5BE3" }}>
                   Letter from Minister of HRD
                 </p>
               </a>
@@ -472,7 +472,7 @@ export default function Personal() {
               >
                 <div
                   className="relative overflow-hidden rounded-md mb-1"
-                  style={{ border: "1px solid #FEE9CC" }}
+                  style={{ border: "1px solid #E0E7FF" }}
                 >
                   <img
                     src="/math-certificate.png"
@@ -492,7 +492,7 @@ export default function Personal() {
                     </span>
                   </div>
                 </div>
-                <p className="text-xs font-medium" style={{ color: "#E57200" }}>
+                <p className="text-xs font-medium" style={{ color: "#2D5BE3" }}>
                   Laureate Certificate 2014
                 </p>
               </a>
@@ -506,28 +506,28 @@ export default function Personal() {
             It started with a curious question in college: if{" "}
             <code
               className="px-1 rounded text-xs"
-              style={{ background: "#FEE9CC", color: "#92400E" }}
+              style={{ background: "#E0E7FF", color: "#3730A3" }}
             >
               7/9 = 0.7777…
             </code>{" "}
             and{" "}
             <code
               className="px-1 rounded text-xs"
-              style={{ background: "#FEE9CC", color: "#92400E" }}
+              style={{ background: "#E0E7FF", color: "#3730A3" }}
             >
               8/9 = 0.8888…
             </code>
             , then why isn&apos;t{" "}
             <code
               className="px-1 rounded text-xs"
-              style={{ background: "#FEE9CC", color: "#92400E" }}
+              style={{ background: "#E0E7FF", color: "#3730A3" }}
             >
               9/9 = 0.9999…
             </code>
             ? And why do we assume{" "}
             <code
               className="px-1 rounded text-xs"
-              style={{ background: "#FEE9CC", color: "#92400E" }}
+              style={{ background: "#E0E7FF", color: "#3730A3" }}
             >
               0.000…01 = 0
             </code>
@@ -557,12 +557,12 @@ export default function Personal() {
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-3 py-1.5 rounded no-underline transition-all duration-200"
-              style={{ background: "#002469", color: "white" }}
+              style={{ background: "#0A2342", color: "white" }}
               onMouseEnter={(e) =>
-                (e.currentTarget.style.background = "#E57200")
+                (e.currentTarget.style.background = "#2D5BE3")
               }
               onMouseLeave={(e) =>
-                (e.currentTarget.style.background = "#002469")
+                (e.currentTarget.style.background = "#0A2342")
               }
             >
               <svg
@@ -588,13 +588,13 @@ export default function Personal() {
             >
               <p
                 className="text-xs font-semibold tracking-widest mb-3"
-                style={{ color: "#E57200" }}
+                style={{ color: "#2D5BE3" }}
               >
                 {item.tag}
               </p>
               <h3
                 className="font-bold text-lg mb-3"
-                style={{ color: "#002469" }}
+                style={{ color: "#0A2342" }}
               >
                 {item.name}
               </h3>
@@ -632,11 +632,11 @@ export default function Personal() {
         {/* Conversation starter */}
         <div
           className="rounded-lg p-8 md:p-12"
-          style={{ background: "#002469" }}
+          style={{ background: "#0A2342" }}
         >
           <p
             className="text-xs font-semibold tracking-widest mb-4"
-            style={{ color: "#E57200" }}
+            style={{ color: "#2D5BE3" }}
           >
             ALWAYS UP FOR A GOOD CONVERSATION
           </p>
@@ -660,7 +660,7 @@ export default function Personal() {
               <span
                 key={t}
                 className="text-xs font-semibold tracking-widest px-3 py-1.5 rounded"
-                style={{ background: "rgba(229,114,0,0.2)", color: "#FED7AA" }}
+                style={{ background: "rgba(45,91,227,0.2)", color: "#93C5FD" }}
               >
                 {t}
               </span>
