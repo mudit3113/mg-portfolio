@@ -462,16 +462,17 @@ export default function Work() {
         </p>
 
         {/* Filter tabs */}
-        <div className="flex flex-wrap gap-2 mb-10">
+        <div className="hide-scrollbar flex gap-2 mb-10 overflow-x-auto pb-2" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setActive(cat)}
-              className="px-4 py-2 text-xs font-semibold tracking-widest rounded transition-all duration-200"
+              className="flex-shrink-0 px-4 text-xs font-semibold tracking-widest rounded transition-all duration-200"
               style={{
                 background: active === cat ? '#0A2342' : 'transparent',
                 color: active === cat ? 'white' : '#6B7280',
                 border: `1px solid ${active === cat ? '#0A2342' : '#E5E7EB'}`,
+                minHeight: '44px',
               }}
             >
               {cat}

@@ -26,7 +26,7 @@ export default function Contact() {
               </p>
               <a
                 href="mailto:muditgarg1996@yahoo.com"
-                className="font-medium no-underline transition-colors duration-200"
+                className="font-medium no-underline transition-colors duration-200 break-all"
                 style={{ color: '#0A2342', fontSize: '1rem' }}
                 onMouseEnter={(e) => (e.currentTarget.style.color = '#2D5BE3')}
                 onMouseLeave={(e) => (e.currentTarget.style.color = '#0A2342')}
@@ -67,7 +67,7 @@ export default function Contact() {
           </div>
 
           {/* CTAs */}
-          <div className="flex flex-col justify-center gap-4">
+          <div className="flex flex-col justify-center gap-4 w-full">
             <a
               href="mailto:muditgarg1996@yahoo.com"
               className="flex items-center justify-center px-8 py-4 text-sm font-semibold tracking-wide text-white rounded no-underline transition-all duration-200"

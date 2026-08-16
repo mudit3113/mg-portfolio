@@ -30,3 +30,8 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* Hide scrollbar for filter tabs on mobile */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

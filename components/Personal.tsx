@@ -284,7 +284,7 @@ export default function Personal() {
           className="rounded-lg p-8 mb-8"
           style={{ background: '#F0F4FF', border: '1px solid #C7D2FE' }}
         >
-          <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
             <div>
               <p className="text-xs font-semibold tracking-widest mb-2" style={{ color: '#2D5BE3' }}>
                 PUBLISHED RESEARCHER · NATIONAL MATHEMATICS TOPPER 2014
@@ -407,7 +407,7 @@ export default function Personal() {
             <div
               key={item.name}
               className="p-6 border rounded-lg flex flex-col"
-              style={{ borderColor: '#E5E7EB' }}
+              style={{ borderColor: '#E8E2D9', background: '#FFFFFF' }}
             >
               <p className="text-xs font-semibold tracking-widest mb-3" style={{ color: '#2D5BE3' }}>
                 {item.tag}

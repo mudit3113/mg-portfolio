@@ -268,15 +268,15 @@ export default function Story() {
         style={{ borderColor: '#E5E7EB' }}
         onClick={() => setOpenId(isOpen ? '' : role.id)}
       >
-        <div className="py-4 flex items-start justify-between gap-4">
-          <div className="flex-1">
+        <div className="py-4 flex items-start justify-between gap-3">
+          <div className="flex-1 min-w-0">
             <p className="text-xs font-semibold tracking-widest mb-1" style={{ color: '#2D5BE3' }}>
               {role.period}
             </p>
-            <p className="font-bold text-base" style={{ color: '#0A2342' }}>{role.company}</p>
-            <p className="text-sm mt-0.5" style={{ color: '#6B7280' }}>{role.title}</p>
+            <p className="font-bold text-base leading-tight" style={{ color: '#0A2342' }}>{role.company}</p>
+            <p className="text-sm mt-0.5 leading-snug" style={{ color: '#6B7280' }}>{role.title}</p>
           </div>
-          <span className="text-lg mt-1" style={{ color: '#2D5BE3' }}>{isOpen ? '−' : '+'}</span>
+          <span className="text-xl flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full" style={{ color: '#2D5BE3', background: '#EEF2FF' }}>{isOpen ? '−' : '+'}</span>
         </div>
 
         {isOpen && (
