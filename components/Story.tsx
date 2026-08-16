@@ -319,10 +319,10 @@ export default function Story() {
     <section id="story" className="py-24 px-6" style={{ background: '#FFFFFF' }}>
       <div className="max-w-6xl mx-auto">
         <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#2D5BE3' }}>
-          02 / STORY
+          02 — Story
         </p>
         <h2
-          className="font-bold mb-3"
+          className="font-serif-display font-bold mb-3"
           style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#0A2342' }}
         >
           From first commit to product owner in five years.
@@ -330,15 +330,11 @@ export default function Story() {
         <p className="mb-12 max-w-xl" style={{ color: '#6B7280', fontSize: '1rem' }}>
           Every role gave me more surface area. Every role made me more dangerous with a blank canvas.
         </p>
-        <p className="text-xs font-semibold tracking-widest mb-6" style={{ color: '#6B7280' }}>
-          CLICK ANY ROLE TO SEE THE WORK.
-        </p>
-
         <div className="grid md:grid-cols-2 gap-12">
           {/* Main career */}
           <div>
             <p className="text-xs font-semibold tracking-widest mb-4 pb-2" style={{ color: '#0A2342', borderBottom: '2px solid #0A2342' }}>
-              CAREER SPINE
+              Career spine
             </p>
             {mainRoles.map((r) => <RoleCard key={r.id} role={r} />)}
           </div>
@@ -346,7 +342,7 @@ export default function Story() {
           {/* Outside the day job */}
           <div>
             <p className="text-xs font-semibold tracking-widest mb-4 pb-2" style={{ color: '#2D5BE3', borderBottom: '2px solid #2D5BE3' }}>
-              OUTSIDE THE DAY JOB
+              Outside the day job
             </p>
             {outsideRoles.map((r) => <RoleCard key={r.id} role={r} />)}
           </div>

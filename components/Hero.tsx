@@ -50,7 +50,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto w-full" ref={containerRef}>
         {/* Hook */}
         <p className="text-xs font-semibold tracking-widest mb-6" style={{ color: '#2D5BE3' }}>
-          BUILDING PRODUCTS SINCE 2021
+          Building products since 2021
         </p>
 
         {/* Two-column: text + photo */}
@@ -59,8 +59,8 @@ export default function Hero() {
           <div className="flex-1">
             <div className="mb-2">
               <h1
-                className="font-bold leading-none tracking-tight"
-                style={{ fontSize: 'clamp(3rem, 8vw, 7rem)', color: '#0A2342' }}
+                className="font-serif-display font-bold leading-none"
+                style={{ fontSize: 'clamp(3rem, 8vw, 7rem)', color: '#0A2342', letterSpacing: '-0.02em' }}
               >
                 Mudit Garg
               </h1>
@@ -79,8 +79,8 @@ export default function Hero() {
             <div className="w-10 h-0.5 my-6" style={{ background: '#2D5BE3' }} />
 
             <h2
-              className="font-bold mb-4"
-              style={{ fontSize: 'clamp(1.5rem, 4vw, 2.8rem)', color: '#0A2342', lineHeight: 1.2 }}
+              className="font-serif-display font-bold mb-4"
+              style={{ fontSize: 'clamp(1.5rem, 4vw, 2.8rem)', color: '#0A2342', lineHeight: 1.25 }}
             >
               Five Years of Shipping.
               <br />

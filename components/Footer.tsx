@@ -52,7 +52,7 @@ export default function Footer() {
           {/* Nav column */}
           <div>
             <p className="text-xs font-semibold tracking-widest mb-5" style={{ color: '#2D5BE3' }}>
-              NAVIGATE
+              Navigate
             </p>
             <ul className="space-y-3">
               {navLinks.map((l) => (
@@ -74,7 +74,7 @@ export default function Footer() {
           {/* Contact column */}
           <div>
             <p className="text-xs font-semibold tracking-widest mb-5" style={{ color: '#2D5BE3' }}>
-              GET IN TOUCH
+              Get in touch
             </p>
             <ul className="space-y-3">
               {contactLinks.map((l) => (
@@ -96,7 +96,7 @@ export default function Footer() {
 
             <div className="mt-8">
               <p className="text-xs font-semibold tracking-widest mb-3" style={{ color: '#2D5BE3' }}>
-                RESUME
+                Resume
               </p>
               <a
                 href="/resume.pdf"

@@ -274,14 +274,14 @@ function CalmCornersCard({ project }: { project: Project }) {
 
   return (
     <div
-      className="flex flex-col border rounded-lg overflow-hidden transition-all duration-200"
-      style={{ borderColor: '#E5E7EB' }}
+      className="flex flex-col border rounded-2xl overflow-hidden transition-all duration-200"
+      style={{ borderColor: '#E8E2D9' }}
       onMouseEnter={(e) => {
         (e.currentTarget as HTMLDivElement).style.borderColor = '#0A2342';
         (e.currentTarget as HTMLDivElement).style.boxShadow = '0 4px 20px rgba(10,35,66,0.08)';
       }}
       onMouseLeave={(e) => {
-        (e.currentTarget as HTMLDivElement).style.borderColor = '#E5E7EB';
+        (e.currentTarget as HTMLDivElement).style.borderColor = '#E8E2D9';
         (e.currentTarget as HTMLDivElement).style.boxShadow = 'none';
       }}
     >
@@ -362,14 +362,14 @@ function ProjectCard({ project }: { project: Project }) {
   const style = statusStyle[project.status] ?? statusStyle['LIVE'];
   return (
     <div
-      className="flex flex-col border rounded-lg p-6 transition-all duration-200"
-      style={{ borderColor: '#E5E7EB' }}
+      className="flex flex-col border rounded-2xl p-6 transition-all duration-200"
+      style={{ borderColor: '#E8E2D9', background: '#FFFFFF' }}
       onMouseEnter={(e) => {
         (e.currentTarget as HTMLDivElement).style.borderColor = '#0A2342';
         (e.currentTarget as HTMLDivElement).style.boxShadow = '0 4px 20px rgba(10,35,66,0.08)';
       }}
       onMouseLeave={(e) => {
-        (e.currentTarget as HTMLDivElement).style.borderColor = '#E5E7EB';
+        (e.currentTarget as HTMLDivElement).style.borderColor = '#E8E2D9';
         (e.currentTarget as HTMLDivElement).style.boxShadow = 'none';
       }}
     >
@@ -449,10 +449,10 @@ export default function Work() {
     <section id="work" className="py-24 px-6" style={{ background: '#FAF7F2' }}>
       <div className="max-w-6xl mx-auto">
         <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#2D5BE3' }}>
-          03 / WORK
+          03 — Work
         </p>
         <h2
-          className="font-bold mb-3"
+          className="font-serif-display font-bold mb-3"
           style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#0A2342' }}
         >
           Shipped Products

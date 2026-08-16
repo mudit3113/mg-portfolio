@@ -54,7 +54,7 @@ export default function Nav() {
               onMouseEnter={(e) => (e.currentTarget.style.color = '#0A2342')}
               onMouseLeave={(e) => (e.currentTarget.style.color = '#6B7280')}
             >
-              <span style={{ color: '#2D5BE3' }}>{l.num} /</span> {l.label}
+              <span style={{ color: '#2D5BE3' }}>{l.num} —</span> {l.label}
             </a>
           ))}
         </div>
@@ -81,7 +81,7 @@ export default function Nav() {
               style={{ color: '#1A1A1A' }}
               onClick={() => setMenuOpen(false)}
             >
-              <span style={{ color: '#2D5BE3' }}>{l.num} /</span> {l.label}
+              <span style={{ color: '#2D5BE3' }}>{l.num} —</span> {l.label}
             </a>
           ))}
         </div>

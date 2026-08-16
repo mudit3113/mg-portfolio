@@ -5,10 +5,10 @@ export default function Contact() {
     <section id="contact" className="py-24 px-6" style={{ background: '#F2EDE4' }}>
       <div className="max-w-6xl mx-auto">
         <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#2D5BE3' }}>
-          06 / CONTACT
+          06 — Contact
         </p>
         <h2
-          className="font-bold mb-3"
+          className="font-serif-display font-bold mb-3"
           style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#0A2342' }}
         >
           Let&apos;s build something worth building.
@@ -22,7 +22,7 @@ export default function Contact() {
           <div className="space-y-8">
             <div>
               <p className="text-xs font-semibold tracking-widest mb-2" style={{ color: '#2D5BE3' }}>
-                EMAIL
+                Email
               </p>
               <a
                 href="mailto:muditgarg1996@yahoo.com"
@@ -37,7 +37,7 @@ export default function Contact() {
 
             <div>
               <p className="text-xs font-semibold tracking-widest mb-2" style={{ color: '#2D5BE3' }}>
-                PHONE
+                Phone
               </p>
               <a
                 href="tel:+919818863113"
@@ -50,7 +50,7 @@ export default function Contact() {
 
             <div>
               <p className="text-xs font-semibold tracking-widest mb-2" style={{ color: '#2D5BE3' }}>
-                LINKEDIN
+                LinkedIn
               </p>
               <a
                 href="https://www.linkedin.com/in/muditnsit/"

@@ -31,6 +31,10 @@ body {
   box-sizing: border-box;
 }
 
+.font-serif-display {
+  font-family: var(--font-lora), Georgia, serif;
+}
+
 /* Hide scrollbar for filter tabs on mobile */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

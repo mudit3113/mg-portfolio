@@ -267,10 +267,10 @@ export default function Personal() {
     <section id="personal" className="py-24 px-6" style={{ background: '#FAF7F2' }}>
       <div className="max-w-6xl mx-auto">
         <p className="text-xs font-semibold tracking-widest mb-4" style={{ color: '#2D5BE3' }}>
-          05 / PERSONAL
+          05 — Personal
         </p>
         <h2
-          className="font-bold mb-3"
+          className="font-serif-display font-bold mb-3"
           style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#0A2342' }}
         >
           Outside the work.

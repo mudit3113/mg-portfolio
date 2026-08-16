@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Lora } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
+const lora = Lora({ subsets: ["latin"], variable: '--font-lora', style: ['normal', 'italic'] });
 
 export const metadata: Metadata = {
   title: "Mudit Garg | Software Engineer · Product Builder ",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className={`${inter.className} min-h-full flex flex-col`}>
+      <body className={`${inter.variable} ${lora.variable} ${inter.className} min-h-full flex flex-col`}>
         {children}
       </body>
     </html>
