@@ -106,7 +106,7 @@ export default function Hero() {
             <div
               className="relative overflow-hidden rounded-2xl"
               style={{
-                width: 'clamp(120px, 28vw, 280px)',
+                width: 'clamp(160px, 35vw, 280px)',
                 aspectRatio: '3/4',
                 border: '3px solid #0A2342',
                 boxShadow: '6px 6px 0px #2D5BE3',
