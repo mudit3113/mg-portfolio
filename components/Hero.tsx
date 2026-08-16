@@ -54,7 +54,22 @@ export default function Hero() {
         </p>
 
         {/* Two-column: text + photo */}
-        <div className="flex flex-col-reverse md:flex-row md:items-start md:justify-between gap-10 mb-0">
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8 mb-0">
+          {/* Photo — centered on mobile, right on desktop */}
+          <div className="flex justify-center md:hidden">
+            <div
+              className="relative overflow-hidden rounded-2xl"
+              style={{
+                width: '160px',
+                aspectRatio: '3/4',
+                border: '3px solid #0A2342',
+                boxShadow: '6px 6px 0px #2D5BE3',
+              }}
+            >
+              <Image src="/mudit.jpg" alt="Mudit Garg" fill className="object-cover object-top" priority />
+            </div>
+          </div>
+
           {/* Left: name + content */}
           <div className="flex-1">
             <div className="mb-2">
@@ -101,8 +116,8 @@ export default function Hero() {
             </p>
           </div>
 
-          {/* Right: photo */}
-          <div className="flex-shrink-0 md:self-start md:mt-2">
+          {/* Right: photo — desktop only */}
+          <div className="hidden md:block flex-shrink-0 md:self-start md:mt-2">
             <div
               className="relative overflow-hidden rounded-2xl"
               style={{
