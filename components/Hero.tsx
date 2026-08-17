@@ -76,8 +76,8 @@ export default function Hero() {
                 style={{ color: "#6B7280" }}
               >
                 <em>
-                  My parents spent days picking &ldquo;Mudit&rdquo;. My colleagues took one
-                  look and went with &ldquo;MG&rdquo;.
+                  My parents spent days picking &lsquo;Mudit&rsquo;. My colleagues took one
+                  look and went with &lsquo;MG&rsquo;.
                 </em>
               </p>
             </div>
