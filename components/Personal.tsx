@@ -124,7 +124,7 @@ const interests: Interest[] = [
   {
     name: "Reading Books",
     tag: "~10 BOOKS IN 2 YEARS",
-    body: "Obsessed with how humans organise themselves across cultures, centuries, and geographies. Avid reader of anthropology and history. I listen to Capital Allocators and Invest Like the Best. Books are where I stress-test assumptions I didn't know I had.",
+    body: "Obsessed with how humans organise themselves across cultures, centuries, and geographies. Avid reader of anthropology and history. I listen to Chicago Booth Review podcast and Invest Like the Best by Paul. Books are where I stress-test assumptions I didn't know I had.",
     photos: [
       {
         src: "/books-collection.jpg",
