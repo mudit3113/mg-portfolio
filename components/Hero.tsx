@@ -150,7 +150,7 @@ export default function Hero() {
                 src="/mudit.jpg"
                 alt="Mudit Garg"
                 fill
-                className="object-cover object-top"
+                className="object-cover object-center"
                 priority
               />
             </div>
@@ -160,7 +160,9 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-wrap gap-3 mb-16">
           <a
-            href="mailto:muditgarg1996@yahoo.com"
+            href="https://calendly.com/muditgargnsut/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-5 py-3 text-sm font-semibold tracking-wide text-white rounded transition-all duration-200 no-underline"
             style={{
               background: "#0A2342",
@@ -170,6 +172,27 @@ export default function Hero() {
             }}
             onMouseEnter={(e) => (e.currentTarget.style.background = "#2D5BE3")}
             onMouseLeave={(e) => (e.currentTarget.style.background = "#0A2342")}
+          >
+            Book a Call
+          </a>
+          <a
+            href="mailto:muditgargnsut@gmail.com"
+            className="px-5 py-3 text-sm font-semibold tracking-wide rounded border transition-all duration-200 no-underline"
+            style={{
+              color: "#0A2342",
+              borderColor: "#0A2342",
+              minHeight: "44px",
+              display: "flex",
+              alignItems: "center",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#0A2342";
+              e.currentTarget.style.color = "white";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+              e.currentTarget.style.color = "#0A2342";
+            }}
           >
             Email Mudit
           </a>

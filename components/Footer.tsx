@@ -9,7 +9,7 @@ const navLinks = [
 ];
 
 const contactLinks = [
-  { label: 'muditgarg1996@yahoo.com', href: 'mailto:muditgarg1996@yahoo.com' },
+  { label: 'muditgargnsut@gmail.com', href: 'mailto:muditgargnsut@gmail.com' },
   { label: 'linkedin.com/in/muditnsit', href: 'https://www.linkedin.com/in/muditnsit/', external: true },
   { label: '+91 98188 63113', href: 'tel:+919818863113' },
 ];
@@ -39,7 +39,7 @@ export default function Footer() {
               Software Engineer at Spinny. Building consumer products that move numbers.
             </p>
             <a
-              href="mailto:muditgarg1996@yahoo.com"
+              href="mailto:muditgargnsut@gmail.com"
               className="inline-block px-5 py-2.5 text-xs font-semibold tracking-wide rounded no-underline transition-all duration-200"
               style={{ background: '#2D5BE3', color: 'white' }}
               onMouseEnter={(e) => (e.currentTarget.style.background = '#1d4ed8')}

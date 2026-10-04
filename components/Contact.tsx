@@ -25,13 +25,13 @@ export default function Contact() {
                 Email
               </p>
               <a
-                href="mailto:muditgarg1996@yahoo.com"
+                href="mailto:muditgargnsut@gmail.com"
                 className="font-medium no-underline transition-colors duration-200 break-all"
                 style={{ color: '#0A2342', fontSize: '1rem' }}
                 onMouseEnter={(e) => (e.currentTarget.style.color = '#2D5BE3')}
                 onMouseLeave={(e) => (e.currentTarget.style.color = '#0A2342')}
               >
-                muditgarg1996@yahoo.com
+                muditgargnsut@gmail.com
               </a>
             </div>
 
@@ -45,6 +45,23 @@ export default function Contact() {
                 style={{ color: '#0A2342', fontSize: '1rem' }}
               >
                 +91 98188 63113
+              </a>
+            </div>
+
+            <div>
+              <p className="text-xs font-semibold tracking-widest mb-2" style={{ color: '#2D5BE3' }}>
+                Book a Call
+              </p>
+              <a
+                href="https://calendly.com/muditgargnsut/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium no-underline transition-colors duration-200"
+                style={{ color: '#0A2342', fontSize: '1rem' }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = '#2D5BE3')}
+                onMouseLeave={(e) => (e.currentTarget.style.color = '#0A2342')}
+              >
+                calendly.com/muditgargnsut/30min
               </a>
             </div>
 
@@ -68,19 +85,57 @@ export default function Contact() {
 
           {/* CTAs */}
           <div className="flex flex-col justify-center gap-4 w-full">
+
+            {/* Calendly featured card */}
             <a
-              href="mailto:muditgarg1996@yahoo.com"
-              className="flex items-center justify-center px-8 py-4 text-sm font-semibold tracking-wide text-white rounded no-underline transition-all duration-200"
-              style={{ background: '#0A2342' }}
-              onMouseEnter={(e) => (e.currentTarget.style.background = '#2D5BE3')}
-              onMouseLeave={(e) => (e.currentTarget.style.background = '#0A2342')}
+              href="https://calendly.com/muditgargnsut/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="no-underline rounded-2xl p-6 flex flex-col gap-3 transition-all duration-200 group"
+              style={{ background: '#0A2342', border: '1px solid #0A2342' }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLAnchorElement).style.background = '#0d2d54';
+                (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 8px 32px rgba(10,35,66,0.18)';
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLAnchorElement).style.background = '#0A2342';
+                (e.currentTarget as HTMLAnchorElement).style.boxShadow = 'none';
+              }}
             >
-              Email Mudit Now
+              <p className="text-xs font-semibold tracking-widest" style={{ color: '#93A3BE' }}>30-MIN CALL · FREE</p>
+              <p className="font-serif-display font-bold leading-snug" style={{ color: '#FFFFFF', fontSize: 'clamp(1.1rem, 2.5vw, 1.35rem)' }}>
+                Want to talk product strategy?
+              </p>
+              <p className="text-sm leading-relaxed" style={{ color: '#93A3BE' }}>
+                PMF, CAC, what to focus on at your current stage — or anything else on your mind. Pick a slot and let&apos;s dig in.
+              </p>
+              <span
+                className="mt-1 self-start px-5 py-2.5 rounded-lg text-xs font-semibold tracking-wide transition-all duration-200"
+                style={{ background: '#2D5BE3', color: '#FFFFFF' }}
+              >
+                Book a Call →
+              </span>
+            </a>
+
+            <a
+              href="mailto:muditgargnsut@gmail.com"
+              className="flex items-center justify-center px-8 py-4 text-sm font-semibold tracking-wide rounded-xl border no-underline transition-all duration-200"
+              style={{ color: '#0A2342', borderColor: '#0A2342' }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = '#0A2342';
+                e.currentTarget.style.color = 'white';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = 'transparent';
+                e.currentTarget.style.color = '#0A2342';
+              }}
+            >
+              Email Mudit
             </a>
             <a
               href="/resume.pdf"
               download
-              className="flex items-center justify-center px-8 py-4 text-sm font-semibold tracking-wide rounded border no-underline transition-all duration-200"
+              className="flex items-center justify-center px-8 py-4 text-sm font-semibold tracking-wide rounded-xl border no-underline transition-all duration-200"
               style={{ color: '#0A2342', borderColor: '#0A2342' }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.background = '#0A2342';
